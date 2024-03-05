@@ -1,9 +1,5 @@
 ﻿
-List<string> toDoList = new List<string>
-{
-    "test",
-    "hallo"
-};
+List<string> toDoList = new List<string>();
 
 
 do
@@ -114,7 +110,7 @@ List<string> RemoveToDo(List<string> list)
             else
             {
                 list.RemoveAt(number - 1);
-                Console.WriteLine($"{number}. {list[number - 1]} has been removed");
+                Console.WriteLine($"list has been removed");
                 break;
             }
         }
